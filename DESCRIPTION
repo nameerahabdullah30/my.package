@@ -3,7 +3,17 @@ Title: This is my first R package
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Evan",
+           family = "Johnson",Authors@R: c(
+    person(given = "Evan",
            family = "Johnson",
+           role = c("aut", "cre"),
+           email = "wevanjohnson@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person(given = "Nameerah",
+           family = "Abdullah",
+           role = "aut")
+)
+       
            role = c("aut", "cre"),
            email = "wevanjohnson@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
